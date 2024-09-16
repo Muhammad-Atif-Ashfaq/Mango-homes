@@ -1,0 +1,24 @@
+.compose-popup {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  .compose-popup {
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .compose-popup {
+    width: 250px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+  }
+}
